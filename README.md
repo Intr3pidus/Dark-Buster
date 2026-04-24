@@ -27,7 +27,7 @@ CONFIGURAÇÃO
 
 1.  Instalar dependências no terminal: pip install -r requirements.txt
 
-2.  Inicializar o código python com: 
+2.  Inicializar o código python no terminal com: 
 
 - python Atividade_Dark_Patterns/Gemini_Atv.py
 - python Atividade_Dark_Patterns/Openai_Atv.py
