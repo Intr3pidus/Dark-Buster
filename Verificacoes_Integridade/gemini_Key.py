@@ -4,7 +4,7 @@ import json
 
 api_key = os.getenv("GOOGLE_API_KEY")
 if not api_key:
-    print("❌ GOOGLE_API_KEY não encontrada.")
+    print("GOOGLE_API_KEY não encontrada.")
     exit()
 
 print("✅ GOOGLE_API_KEY foi detectada no ambiente!")

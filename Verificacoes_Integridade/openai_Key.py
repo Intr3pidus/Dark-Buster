@@ -5,7 +5,7 @@ import json
 # Pega a chave da OpenAI
 api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
-    print("❌ OPENAI_API_KEY não encontrada.")
+    print("OPENAI_API_KEY não encontrada.")
     exit()
 
 print("✅ OPENAI_API_KEY foi detectada no ambiente!")

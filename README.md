@@ -1,73 +1,134 @@
-# Dark_Buster_Atv
-Dark Patterns Analyzer
+# 🌑 Dark_Partner
 
-Projeto desenvolvido para analisar sites e identificar padrões
-manipulativos (Dark Patterns) utilizando inteligência artificial, com
-integração com modelos da OpenAI e Google Gemini.
+Projeto desenvolvido para analisar sites e identificar padrões manipulativos (**Manipulative Design / Dark Patterns**) utilizando inteligência artificial, com integração com modelos da OpenAI e Google Gemini.
 
-OBJETIVO
+📄 Para melhor entendimento da estrutura e uso do projeto, acesse:
+`Documentation/Documentation_Overview.md`
 
--   Identificar práticas de design manipulativo em websites
--   Detectar possíveis riscos de segurança
--   Comparar resultados entre diferentes modelos de IA
--   Gerar relatórios estruturados em formato Excel
+---
 
-TECNOLOGIAS UTILIZADAS
+## 🎯 OBJETIVO
 
--   Python 3.x
--   OpenAI API
--   Google Gemini API
--   Pandas
--   Requests
--   BeautifulSoup
--   OpenPyXL
--   Matplotlib / Seaborn
+* Identificar práticas de design manipulativo em websites
+* Detectar possíveis riscos de segurança
+* Comparar resultados entre diferentes modelos de IA
+* Gerar relatórios estruturados em formato Excel
 
-CONFIGURAÇÃO
+---
 
-1.  Instalar dependências no terminal: pip install -r requirements.txt
+## 🛠️ TECNOLOGIAS UTILIZADAS
 
-2.  Inicializar o código python no terminal com: 
+* Python 3.x
+* OpenAI API
+* Google Gemini API
+* Pandas
+* Requests
+* BeautifulSoup
+* OpenPyXL
+* Matplotlib / Seaborn
 
-- python Atividade_Dark_Patterns/Gemini_Atv.py
-- python Atividade_Dark_Patterns/Openai_Atv.py
+---
 
-CONFIGURAÇÃO DAS APIs
+## ⚙️ CONFIGURAÇÃO
 
-OpenAI: export OPENAI_API_KEY=“sua_chave_aqui”
+### 1️⃣ Instalar Dependências
 
-Google Gemini: export GOOGLE_API_KEY=“sua_chave_aqui”
+No terminal, execute:
 
-ENTRADA DE DADOS
+```bash
+pip install -r requirements.txt
+```
 
--   Data/sites.txt
--   Data/sites_educativos.txt
+---
 
-SAÍDA DE DADOS
+### 2️⃣ Executar os Scripts
 
--   Pasta Data_resultados/
+Execute um dos arquivos abaixo no terminal:
 
-Inclui: - URL analisada - Presença de dark patterns - Tipos detectados -
-Riscos de segurança - Nível de confiança
+```bash
+python Atividade_Dark_Patterns/Gemini_Atv.py
+```
 
-ANÁLISE
+ou
 
-Notebook: Notebook/graficos_Dark_Buster.ipynb
+```bash
+python Atividade_Dark_Patterns/Openai_Atv.py
+```
 
-OBSERVAÇÕES
+---
 
--   Alguns sites podem bloquear requisições automáticas
--   A qualidade depende do modelo de IA
--   Necessário internet
+## 🔑 CONFIGURAÇÃO DAS APIs
 
-MELHORIAS FUTURAS
+Antes de rodar o projeto, configure suas chaves de API:
 
--   Interface web
--   Mais modelos de IA
--   Classificação mais detalhada
--   Automação de relatórios
+### Google Gemini
 
-AUTOR
+```bash
+export GOOGLE_API_KEY="sua_chave_aqui"
+```
 
-Projeto acadêmico voltado para estudo de IA aplicada à detecção de
-padrões manipulativos na web.
+### OpenAI
+
+```bash
+export OPENAI_API_KEY="sua_chave_aqui"
+```
+
+---
+
+## 📥 ENTRADA DE DADOS
+
+Os dados de entrada estão localizados em:
+
+* `Data/sites.txt`
+* `Data/sites_educativos.txt`
+
+---
+
+## 📤 SAÍDA DE DADOS
+
+Os resultados são salvos na pasta:
+
+```text
+Data_resultados/
+```
+
+### 📊 Os relatórios incluem:
+
+* URL analisada
+* Presença de dark patterns
+* Tipos detectados
+* Riscos de segurança
+* Nível de confiança
+
+---
+
+## 📊 ANÁLISE
+
+A análise visual dos dados pode ser feita no notebook:
+
+```text
+Notebook/graficos_Dark_Buster.ipynb
+```
+
+---
+
+## ⚠️ OBSERVAÇÕES
+
+* Alguns sites podem bloquear requisições automáticas
+* A qualidade dos resultados depende do modelo de IA utilizado
+* É necessário conexão com a internet
+
+---
+
+## 🚀 MELHORIAS FUTURAS
+
+* Interface web
+* Integração com mais modelos de IA
+* Classificação mais detalhada
+* Automação completa de relatórios
+
+---
+
+## 👨‍💻 AUTOR
+
+Projeto acadêmico voltado para estudo de **IA aplicada à detecção de padrões manipulativos na web**.
