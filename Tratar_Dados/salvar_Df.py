@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 def salvar_resultados(df):
-    pasta = r"/workspaces/Sites_Design_Manipulativos/Data/Resultados_Atuais"
+    pasta = r"/workspaces/Dark_Partner/Data/Resultados_Atuais"
     fonte = df['Fonte'].unique()[0]
 
     os.makedirs(pasta, exist_ok = True)

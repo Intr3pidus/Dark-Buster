@@ -41,22 +41,6 @@ pip install -r requirements.txt
 
 ---
 
-### 2️⃣ Executar os Scripts
-
-Execute um dos arquivos abaixo no terminal:
-
-```bash
-python Atividade_Dark_Patterns/Gemini_Atv.py
-```
-
-ou
-
-```bash
-python Atividade_Dark_Patterns/Openai_Atv.py
-```
-
----
-
 ## 🔑 CONFIGURAÇÃO DAS APIs
 
 Antes de rodar o projeto, configure suas chaves de API:
